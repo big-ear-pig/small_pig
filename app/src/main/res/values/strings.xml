@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">飞兔</string>
+    <string name="title_activity_login">登录</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+</resources>

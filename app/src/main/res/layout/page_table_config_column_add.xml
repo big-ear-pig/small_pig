@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etColName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="字段名称（如：姓名）" />
+
+    <Spinner
+        android:id="@+id/spDataType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etCommonWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="列宽度(dp) 默认100"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etHeaderHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="表头高度(dp) 默认48"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDataHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="数据行高度(dp) 默认56"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

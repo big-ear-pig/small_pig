@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="70dp"
+    android:height="70dp"
+    android:viewportWidth="70"
+    android:viewportHeight="70">
+
+    <!-- 背景圆形 -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M35,35 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0" />
+
+    <!-- 头部（圆形） -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M35,28 c-4,0 -7,-3 -7,-7 c0,-4 3,-7 7,-7 c4,0 7,3 7,7 C42,25 39,28 35,28z" />
+
+    <!-- 身体（半圆） -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M20,48 c0,-8 15,-12 15,-12 c0,0 15,4 15,12 l0,8 l-30,0 Z" />
+</vector>
